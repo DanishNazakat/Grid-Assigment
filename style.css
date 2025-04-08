@@ -26,6 +26,18 @@ h1{
     transform: scale(1.1);
 }
 
-.thirdrow{
+.thirdrow , .forthrow{
     display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
