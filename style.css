@@ -1,0 +1,31 @@
+.main{
+    text-align: center;
+}
+h1{
+    color: rgb(241, 127, 127);
+    margin-bottom: 40px;
+    
+}
+
+.firstrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+
+}
+.firstrow div{
+    box-shadow: 5px 8px 15px rgb(124, 190, 228);
+    transition: all 0.5s ease-in;
+}
+.firstrow div p{
+    color: rgb(62, 136, 231);
+    font-size: 20px
+}
+.firstrow div:hover{
+    transform: scale(1.1);
+}
+
+.thirdrow{
+    display: flex;
+}
